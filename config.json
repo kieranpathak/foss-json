@@ -1,1 +1,41 @@
-
+{
+    "name": "New Map",
+    "time": "Infinity",
+    "locations": [{
+        "entry": "Plain"
+    }],
+    "areas": [{
+        "setting": "Overworld",
+        "creation": [{
+            "macro": "Floor",
+            "x": 0,
+            "y": 0,
+            "width": 128
+        }, {
+            "thing": "Beetle",
+            "x": 100,
+            "y": 8
+        }, {
+            "thing": "Koopa",
+            "x": 72,
+            "y": 12,
+            "smart": false,
+            "jumping": false,
+            "flying": false
+        }, {
+            "thing": "Blooper",
+            "x": 116,
+            "y": 32
+        }, {
+            "thing": "Blooper",
+            "x": 96,
+            "y": 44
+        }, {
+            "thing": "CheepCheep",
+            "x": 164,
+            "y": 0,
+            "smart": false
+        }],
+        "editor": true
+    }]
+}
